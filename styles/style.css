@@ -1,0 +1,664 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    width: 1536px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/Hero-bg.png);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+text-align: center;
+}
+.hero-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+text-align: center;
+margin-top: 20px;
+}
+
+.hero-btn{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 25px;
+text-align: center;
+}
+
+.hero-btn{
+     background-color:#0D1321;
+     padding: 20px 40px;
+     border-radius: 7px;
+     margin-top: 30px;
+}
+.rakib{
+    /* height: 1536px; */
+    border: 2px solid red;
+}
+
+.rakib-banner{
+    font-size: 32px;
+font-weight: 700;
+    margin: 85px ;
+    height: 1536px;
+    background-color: #FAFAFB;
+    border:7px solid green;
+}
+
+.rakib-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    text-align: center; 
+}
+.rakib-discription{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+text-align: center;
+}
+.rana{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rana-tutton{
+    
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-section-container{
+width: 946px;
+height: 1235px;
+/* border: 2px solid red; */
+margin: 0 auto;
+margin-top: 50px;
+}
+.margin-top{
+    text-align: center;
+    margin-top: 80px;
+}
+.featured-image-container{
+    
+    width: 90%;
+    height: 1300px;
+    margin:  0 auto;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+    background-color: #FAFAFB;
+}
+
+.featured-title-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rakib-image-cointener{
+    margin: 0 auto;
+    width: 946px;
+    height: 336px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    
+}
+
+/* sherd style */
+.siam-vai{
+    margin-top: 70px;
+}
+#margin-top{
+    margin-top: 15px;
+}
+.under-line{
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.color-rakib{
+    opacity: 0.7;
+
+}
+.btn{
+ margin-top: 30px;
+ width: 110px;
+height: 50px;
+}
+
+
+.text-cointener{
+    border: 2px solid red;
+
+}
+
+.image-container{
+
+border: 2px solid red;
+}
+
+.first-image{
+    display: flex;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.secend-image{
+padding: 50px;
+margin-top: 25px;
+width: 946px;
+height: 336px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.third-image{
+    margin-top: 25px;
+    padding: 50px;
+margin: 0 auto;
+width: 946px;
+height: 336px;
+display: flex;
+justify-content: space-between;
+ align-items: center;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hablu-text-container{
+    text-align: center;
+}
+
+.youtibe-video{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.section-text{
+    text-align: center;
+}
+
+.programmer-section{
+    margin-top: 150px;
+}
+
+.toder-sobar-baba{
+    gap: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hablu-first-image{
+    padding: 40PX;
+    border-radius: 15PX;
+    background-color: #FFF6F4;
+width: 364px;
+height: 300px;
+}
+
+.hablu-seckend-image{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #F2F6FE;
+    width: 364px;
+    height: 300px;
+}
+
+.habli-third-image{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFDF2;
+    width: 364px;
+    height: 300px;
+}
+
+.rakib-vaiya{
+    color:white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.background{
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 1140px;
+height: 314px;
+    background-image: url(../assets/handshake.jpg);
+}
+
+.input-type{
+text-align: center;
+ margin-top: 90px;
+}
+
+.sala{
+border-radius: 8px;
+padding: 20px;   
+ width: 548px;
+height: 57px;
+border: none;
+}
+
+.dulavai{
+    font-size: 20px;
+    font-weight: 600;  
+border-radius: 8px;
+border: none;
+width: 120px;
+height: 58px;
+}
+
+
+.toraamr-sotovai{
+    margin-top: 120px;
+    width: 80%;
+    text-align: end;
+}
+
+#tui-sala{
+margin-top: 80px;
+background-color: red;
+width: 1440px;
+height: 100px;
+ display: flex;
+border: 2px solid red;
+margin: 0 auto;
+}
+.rani-div{
+width: 1140px;
+height: 36px;
+display: flex;
+margin: 0 auto;
+/* flex-direction: row; */
+justify-content:space-between;
+align-items: center;
+text-align: center;
+
+/* margin-top: 120px;
+ 
+display: flex;
+/* justify-content: center; */
+/* align-items: center;
+justify-content: space-between; 
+align-items: center; 
+/* width: 75%; */
+/* margin: 80px  80px; */
+/* border: 2px solid red; */
+/* margin: 0 auto;
+background-color: #F7F8F8; */ 
+
+}
+
+.tomar-baba-div{
+/* display: flex;
+/* justify-content: space-between; */
+/* align-items: center;
+width: 1440px;
+height: 100px;
+margin-top: 40px;
+border: 2px solid red;
+background-color:#F7F8F8 ; */ 
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+width: 1536px;
+height: 100px;
+background-color: #F7F8F8;
+}
+
+/* dada style */
+.brovai-rakib{
+    margin-top: 70px;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
